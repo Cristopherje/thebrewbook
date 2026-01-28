@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,73 +10,75 @@
   <body>
     <div class="header">
       <h1>The Brew Book</h1>
-      <h2>Welcome to the best coffee recipes in the web!</h2>
+      <span class="header-welcome-message"
+        >Welcome to the best coffee recipes in the web!</span
+      >
     </div>
 
-    <h2>Our Coffee Recipes</h2>
+    <h2 class="section-title">Our Coffee Recipes</h2>
 
-    <a class="card" href="./recipes/cappuccino.html" rel="noreferrer">
-      <img
-        class="card-img"
-        src="../images/cappuccino.jpg"
-        alt="Classic white cup serving a cappuccino with heart-shaped latte art"
-        width="1080"
-        height="1920"
-      />
-      <div class="card-content">
-        <h3>The Classic Cappuccino</h3>
-        <h4>Description</h4>
-        <p>
-          The cappuccino is an Italian classic that is all about texture. It
-          consists of equal parts espresso, steamed milk, and thick milk foam.
-          It is perfect for those who want a strong coffee taste with a creamy,
-          velvety finish.
-        </p>
-        <button>View recipe</button>
-      </div>
-    </a>
+    <div class="container">
+      <a class="card" href="./recipes/cappuccino.html" rel="noreferrer">
+        <img
+          class="card-img"
+          src="../images/cappuccino.jpg"
+          alt="Classic white cup serving a cappuccino with heart-shaped latte art"
+          width="1080"
+          height="1920"
+        />
+        <div class="card-content">
+          <h2>The Classic Cappuccino</h2>
+          <p>
+            The cappuccino is an Italian classic that is all about texture. It
+            consists of equal parts espresso, steamed milk, and thick milk foam.
+            It is perfect for those who want a strong coffee taste with a
+            creamy, velvety finish.
+          </p>
+          <span class="recipe-link">View recipe</span>
+        </div>
+      </a>
 
-    <a class="card" href="./recipes/espresso.html" rel="noreferrer">
-      <img
-        class="card-img"
-        src="../images/espresso.jpg"
-        alt="A small coffee cup with a single shot of espresso and golden crema"
-        width="1080"
-        height="1920"
-      />
+      <a class="card" href="./recipes/espresso.html" rel="noreferrer">
+        <img
+          class="card-img"
+          src="../images/espresso.jpg"
+          alt="A small coffee cup with a single shot of espresso and golden crema"
+          width="1080"
+          height="1920"
+        />
 
-      <div class="card-content">
-        <h3>The Perfect Espresso Shot</h3>
-        <h4>Description</h4>
-        <p>
-          Espresso is the foundation of almost every coffee drink. It is a
-          concentrated form of coffee, served in small, strong shots. A perfect
-          shot should have a rich flavor and be topped with a golden-brown foam
-          called "crema".
-        </p>
-        <button>View recipe</button>
-      </div>
-    </a>
+        <div class="card-content">
+          <h2>The Perfect Espresso Shot</h2>
+          <p>
+            Espresso is the foundation of almost every coffee drink. It is a
+            concentrated form of coffee, served in small, strong shots. A
+            perfect shot should have a rich flavor and be topped with a
+            golden-brown foam called "crema".
+          </p>
+          <span class="recipe-link">View recipe</span>
+        </div>
+      </a>
 
-    <a class="card" href="./recipes/mocha.html" rel="noreferrer">
-      <img
-        class="card-img"
-        src="../images/mocha.jpg"
-        alt="A glass mug filled with mocha and topped with whipped cream"
-        width="1080"
-        height="1920"
-      />
-      <div class="card-content">
-        <h3>The Creamy Mocha</h3>
-        <h4>Description</h4>
-        <p>
-          A mocha is the perfect marriage between coffee and hot chocolate. It
-          combines the intensity of espresso with sweet chocolate syrup and
-          steamed milk, often topped with whipped cream. It is a dessert-like
-          treat for coffee lovers.
-        </p>
-        <button>View recipe</button>
-      </div>
-    </a>
+      <a class="card" href="./recipes/mocha.html" rel="noreferrer">
+        <img
+          class="card-img"
+          src="../images/mocha.jpg"
+          alt="A glass mug filled with mocha and topped with whipped cream"
+          width="1080"
+          height="1920"
+        />
+        <div class="card-content">
+          <h2>The Creamy Mocha</h2>
+          <p>
+            A mocha is the perfect marriage between coffee and hot chocolate. It
+            combines the intensity of espresso with sweet chocolate syrup and
+            steamed milk, often topped with whipped cream. It is a dessert-like
+            treat for coffee lovers.
+          </p>
+          <span class="recipe-link">View recipe</span>
+        </div>
+      </a>
+    </div>
+    <footer>The Brew Book - A project from The Odin Project</footer>
   </body>
 </html>
